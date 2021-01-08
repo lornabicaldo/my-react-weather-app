@@ -4,12 +4,16 @@ import Weather from "./Weather"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>
-         Hello World, Hello Weather
-        </h1>
+      <ul>
+        <li>
+          Stuttgart
+          Valletta
+          Manila
+          Tokyo
+        </li>
+      </ul>
         <Weather city="Stuttgart" />
-      </header>
+      
     </div>
   );
 }
